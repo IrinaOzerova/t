@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="menu.Statistics">
+  <grid id="27dc6" binding="jp_stats" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1000" height="532"/>
+    </constraints>
+    <properties>
+      <maximumSize width="600" height="600"/>
+      <minimumSize width="400" height="400"/>
+      <preferredSize width="360" height="440"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ca6e4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7d976" class="javax.swing.JButton" binding="jb_easy">
+            <constraints/>
+            <properties>
+              <background color="-14991045"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="true"/>
+              <focusable value="false"/>
+              <font name="Calibri" size="20" style="1"/>
+              <foreground color="-4498836"/>
+              <minimumSize width="50" height="40"/>
+              <opaque value="true"/>
+              <preferredSize width="120" height="40"/>
+              <text value="Easy"/>
+            </properties>
+          </component>
+          <component id="dff06" class="javax.swing.JButton" binding="jb_medium">
+            <constraints/>
+            <properties>
+              <background color="-9655621"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <font name="Calibri" size="20" style="1"/>
+              <foreground color="-4498836"/>
+              <name value="medium"/>
+              <opaque value="true"/>
+              <preferredSize width="120" height="40"/>
+              <text value="Medium"/>
+            </properties>
+          </component>
+          <component id="ffe43" class="javax.swing.JButton" binding="jb_hard">
+            <constraints/>
+            <properties>
+              <background color="-9655621"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="false"/>
+              <font name="Calibri" size="20" style="1"/>
+              <foreground color="-4498836"/>
+              <opaque value="true"/>
+              <preferredSize width="120" height="40"/>
+              <text value="Hard"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="66e0b" binding="jp_mode" layout-manager="CardLayout" hgap="0" vgap="0" show="a1078">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a1078" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+            <constraints>
+              <card name="easy"/>
+            </constraints>
+            <properties>
+              <minimumSize width="100" height="500"/>
+              <name value="easy"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8fa0f" class="javax.swing.JTable" binding="jt_easy">
+                <constraints/>
+                <properties>
+                  <background color="-14991045"/>
+                  <editingColumn value="-1"/>
+                  <enabled value="true"/>
+                  <focusable value="false"/>
+                  <font name="Calibri" size="24" style="1"/>
+                  <foreground color="-4508131"/>
+                  <gridColor color="-13892601"/>
+                  <intercellSpacing width="30" height="10"/>
+                  <name value="easy"/>
+                  <preferredSize width="360" height="400"/>
+                  <rowHeight value="40"/>
+                  <rowMargin value="10"/>
+                  <showHorizontalLines value="true"/>
+                  <showVerticalLines value="true"/>
+                  <surrendersFocusOnKeystroke value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2a1c1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+            <constraints>
+              <card name="medium"/>
+            </constraints>
+            <properties>
+              <name value="medium"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6fb67" class="javax.swing.JTable" binding="jt_medium">
+                <constraints/>
+                <properties>
+                  <background color="-14991045"/>
+                  <editingColumn value="-1"/>
+                  <enabled value="true"/>
+                  <focusable value="false"/>
+                  <font name="Calibri" size="24" style="1"/>
+                  <foreground color="-4508131"/>
+                  <gridColor color="-13892601"/>
+                  <intercellSpacing width="30" height="10"/>
+                  <name value="medium"/>
+                  <preferredSize width="360" height="400"/>
+                  <rowHeight value="40"/>
+                  <rowMargin value="10"/>
+                  <showHorizontalLines value="true"/>
+                  <showVerticalLines value="true"/>
+                  <surrendersFocusOnKeystroke value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7b216" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+            <constraints>
+              <card name="hard"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3470a" class="javax.swing.JTable" binding="jt_hard">
+                <constraints/>
+                <properties>
+                  <background color="-14991045"/>
+                  <editingColumn value="-1"/>
+                  <enabled value="true"/>
+                  <focusable value="false"/>
+                  <font name="Calibri" size="24" style="1"/>
+                  <foreground color="-4508131"/>
+                  <gridColor color="-13892601"/>
+                  <intercellSpacing width="30" height="10"/>
+                  <name value="medium"/>
+                  <preferredSize width="360" height="400"/>
+                  <rowHeight value="40"/>
+                  <rowMargin value="10"/>
+                  <showHorizontalLines value="true"/>
+                  <showVerticalLines value="true"/>
+                  <surrendersFocusOnKeystroke value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
